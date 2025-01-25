@@ -12,5 +12,11 @@
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
+     <url>
+        <loc>https://limewin-casino.github.io/assets/www/preloader.webm</loc>
+        <lastmod>2025-01-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
 
