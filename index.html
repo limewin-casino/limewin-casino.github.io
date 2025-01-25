@@ -9,16 +9,16 @@
     <meta http-equiv="Delegate-CH" content="sec-ch-ua https://ads.trafficjunky.net; sec-ch-ua-arch https://ads.trafficjunky.net; sec-ch-ua-full-version-list https://ads.trafficjunky.net; sec-ch-ua-mobile https://ads.trafficjunky.net; sec-ch-ua-model https://ads.trafficjunky.net; sec-ch-ua-platform https://ads.trafficjunky.net; sec-ch-ua-platform-version https://ads.trafficjunky.net;">
     <meta name="description" content="Immerse yourself in the thrilling world of online gaming with LimeWin. Enjoy top-rated slots, poker, blackjack, and roulette to enhance your gaming experience!" data-rh="true">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Preloader Video",
-  "description": "Loading animation for LimeWin Casino.",
-  "contentUrl": "https://limewin-casino.github.io/assets/www/preloader.webm",
-  "uploadDate": "2025-01-25"
-}
-</script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "name": "Preloader Image",
+      "description": "Loading animation for LimeWin Casino.",
+      "contentUrl": "https://limewin-casino.github.io/assets/www/preloader.webm",
+      "uploadDate": "2025-01-25"
+    }
+    </script>
     <script async src="https://www.googletagmanager.com/gtm.js?id=G-RGFFEVPN9Y"></script>
     <script>
         (function(w,d,s,l,i){
@@ -94,23 +94,23 @@
             background-color: rgb(2, 9, 50);
         }
 
-        /* Новые стили для видео и кнопки */
-        .video-overlay {
+        /* Новые стили для изображения и кнопки */
+        .image-overlay {
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            z-index: 1; /* Видео поверх всего */
+            z-index: 1; /* Изображение поверх всего */
             display: flex;
             justify-content: center; /* Центрирование по горизонтали */
             align-items: center; /* Центрирование по вертикали */
         }
 
-        .video-overlay video {
-            width: 450px; /* Ширина видео */
-            height: 300px; /* Высота видео */
-            object-fit: cover; /* Сохраняет пропорции видео */
+        .image-overlay img {
+            width: 450px; /* Ширина изображения */
+            height: 300px; /* Высота изображения */
+            object-fit: cover; /* Сохраняет пропорции изображения */
             border-radius: 10px; /* Закругленные углы */
         }
 
@@ -119,7 +119,7 @@
             bottom: 200px;
             left: 50%;
             transform: translateX(-50%);
-            z-index: 10001; /* Кнопка поверх видео */
+            z-index: 10001; /* Кнопка поверх изображения */
             background: transparent;
             border: none;
             cursor: pointer;
@@ -196,11 +196,9 @@
                 height="0" width="0" style="display:none;visibility:hidden" id="tag-manager"></iframe>
     </noscript>
 
-    <!-- Видео поверх всего -->
-    <div class="video-overlay">
-        <video autoplay loop muted playsinline>
-            <source src="assets/www/preloader.webm" type="video/webm">
-            </video>
+    <!-- Изображение поверх всего -->
+    <div class="image-overlay">
+        <img src="assets/www/preloader.webm" alt="Preloader Image">
     </div>
 
     <div class="age-button" onclick="loadRunScript()">
