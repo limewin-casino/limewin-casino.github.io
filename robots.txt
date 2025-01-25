@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+Sitemap: https://www.limewin.com/sitemap.xml
+Sitemap: https://limewin.com/sitemap.xml
