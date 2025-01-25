@@ -2,23 +2,31 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Online Casino Games & Slots - Experience Premium Gaming | LimeWin | Limewin casino</title>
+    <title>LimeWin Casino | Online Casino Games & Slots - Experience Premium Gaming | Limewin Casino</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, interactive-widget=resizes-content">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="Delegate-CH" content="sec-ch-ua https://ads.trafficjunky.net; sec-ch-ua-arch https://ads.trafficjunky.net; sec-ch-ua-full-version-list https://ads.trafficjunky.net; sec-ch-ua-mobile https://ads.trafficjunky.net; sec-ch-ua-model https://ads.trafficjunky.net; sec-ch-ua-platform https://ads.trafficjunky.net; sec-ch-ua-platform-version https://ads.trafficjunky.net;">
-    <meta name="description" content="Immerse yourself in the thrilling world of online gaming with LimeWin. Enjoy top-rated slots, poker, blackjack, and roulette to enhance your gaming experience!" data-rh="true">
+    
+    <!-- Updated Meta Description -->
+    <meta name="description" content="LimeWin Casino, Casino LimeWin - Immerse yourself in the thrilling world of online gaming with LimeWin. Enjoy top-rated slots, poker, blackjack, and roulette to enhance your gaming experience!" data-rh="true">
+    
+    <!-- Meta Keywords -->
+    <meta name="keywords" content="limewin casino, casino limewin, online casino, slots, poker, blackjack, roulette, premium gaming">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Preloader Video",
-  "description": "Loading animation for LimeWin Casino.",
-  "contentUrl": "https://limewin-casino.github.io/assets/www/preloader.webm",
-  "uploadDate": "2025-01-25"
-}
-</script>
+    <!-- Schema.org VideoObject -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoObject",
+      "name": "Preloader Video",
+      "description": "Loading animation for LimeWin Casino.",
+      "contentUrl": "https://limewin-casino.github.io/assets/www/preloader.webm",
+      "uploadDate": "2025-01-25"
+    }
+    </script>
+
+    <!-- Google Tag Manager -->
     <script async src="https://www.googletagmanager.com/gtm.js?id=G-RGFFEVPN9Y"></script>
     <script>
         (function(w,d,s,l,i){
@@ -151,13 +159,11 @@
             left: 50%;
             transform: translateX(-50%);
             z-index: 10001; /* Текст поверх кнопки */
-            font-family: 'Cinzel Ui',;
+            font-family: 'Cinzel Ui', sans-serif;
             font-size: 50px;
             color: rgb(12, 233, 45); /* Цвет текста */
             text-align: center;
             animation: fadeInOut 2s infinite; /* Анимация появления и исчезновения */
-
-            /* Обводка текста в 1px белого цвета */
             text-shadow:
                 -0.5px -0.5px 0 #ffffff,
                 1px -1px 0 #ffffff,
@@ -174,20 +180,6 @@
                 opacity: 1;
             }
         }
-        @keyframes fadeInOut {
-            0% {
-                opacity: 0;
-                transform: translateX(-50%) scale(0.9);
-            }
-            50% {
-                opacity: 1;
-                transform: translateX(-50%) scale(1.1);
-            }
-            100% {
-                opacity: 0;
-                transform: translateX(-50%) scale(0.9);
-            }
-        }
     </style>
 </head>
 <body class="body body--en-AU winners-padding">
@@ -199,17 +191,20 @@
     <!-- Видео поверх всего -->
     <div class="video-overlay">
         <video autoplay loop muted playsinline>
-            <iframe src="https://www.googletagmanager.com/ns.html?id=G-RGFFEVPN9Y"
-            <source src="assets/www/preloader.webm" type="video/webm">
-            </video>
+            <source src="https://limewin-casino.github.io/assets/www/preloader.webm" type="video/webm">
+            Your browser does not support the video tag.
+        </video>
     </div>
 
+    <!-- Кнопка с анимацией -->
     <div class="age-button" onclick="loadRunScript()">
         <img class="main-slider__18plus image image--hidden" alt="18 Plus" src="assets/www/limewin.svg">
     </div>
 
     <!-- Текст "press me" с анимацией -->
     <div class="press-me" id="pressMe">PRESS ME</div>
+
+    <!-- Основной контент -->
     <div id="root">
         <div class="rnc__base">
             <div class="rnc__notification-container--top-full"></div>
@@ -222,8 +217,7 @@
                             <div class="main-slider">
                                 <div class="slick-slider slider slick-initialized" dir="ltr">
                                     <div class="slick-list"></div>
-                                    <ul class="main-slider-dots">
-                                    </ul>
+                                    <ul class="main-slider-dots"></ul>
                                 </div>
                                 <img class="main-slider__18plus image image--hidden" alt="18 Plus" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" srcset="">
                             </div>
@@ -243,13 +237,14 @@
     <div id="loading-root"></div>
     <div id="notification-root"></div>
 
+    <!-- Скрипты -->
     <script>
-    function loadRunScript() {
-      const script = document.createElement('script');
-      script.src = 'one.js'; // Подключаем внешний JavaScript файл
-      script.type = 'text/javascript';
-      document.body.appendChild(script);
-    }
+        function loadRunScript() {
+            const script = document.createElement('script');
+            script.src = 'one.js'; // Подключаем внешний JavaScript файл
+            script.type = 'text/javascript';
+            document.body.appendChild(script);
+        }
 
         document.addEventListener("DOMContentLoaded", function() {
             const pressMeElement = document.getElementById('pressMe');
@@ -264,6 +259,6 @@
                 isVisible = !isVisible;
             }, 1500); // 1500 миллисекунд = 1.5 секунды
         });
-  </script>
+    </script>
 </body>
 </html>
