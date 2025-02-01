@@ -110,34 +110,34 @@
     bottom: 200px;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 10001; /* Если надо выше, увеличь число */
+    z-index: 10001;
     background: transparent;
     border: none;
     cursor: pointer;
+    transition: transform 0.1s; /* Add a transition for the button press effect */
 }
 
 .age-button img {
     width: 100px;
     height: auto;
     animation: pulse 1.5s infinite;
-    transition: transform 0.1s ease-in-out;
 }
 
-.age-button:active img {
-    transform: scale(0.9);
+.age-button:active {
+    transform: translateX(-50%) scale(0.95); /* Scale down the button slightly when pressed */
 }
 
-        @keyframes pulse {
-            0% {
-                transform: scale(1);
-            }
-            50% {
-                transform: scale(1.1);
-            }
-            100% {
-                transform: scale(1);
-            }
-        }
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 
         .press-me {
             pointer-events: none;
