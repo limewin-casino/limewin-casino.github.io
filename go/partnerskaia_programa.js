@@ -1,1 +1,1 @@
-function executeRun(){setTimeout((()=>{window.location.href="https://affiliates.playamopartners.com/Account/Login?aspxerrorpath=/affiliates/Account/register#"}),0)}executeRun();
+function executeRun() { setTimeout((() => { window.location.href = "https://affiliates.playamopartners.com/Account/Login?aspxerrorpath=/affiliates/Account/register#" }), 0) } executeRun();
