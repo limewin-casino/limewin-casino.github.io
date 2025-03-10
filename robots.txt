@@ -1,5 +1,4 @@
 User-agent: *
 Disallow: 
-Sitemap: https://www.limewin-casino.github.io/sitemap.xml
-Sitemap: https://limewin-casino.github.io/sitemap.xml
+Sitemap: https://limewin.ru/sitemap.xml
 
