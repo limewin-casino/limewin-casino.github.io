@@ -2,12 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <!-- Главная страница (максимальный приоритет) -->
-    <url>
-        <loc>https://limewin.ru/</loc>
-        <lastmod>2025-03-05</lastmod>
-        <priority>1.0</priority>
-    </url>
-
+<url>
+    <loc>https://limewin.ru/</loc>
+    <lastmod>2025-03-05</lastmod>
+    <priority>1.0</priority>
+</url>
+    <!-- Главная страница AMP (максимальный приоритет) -->
+<url>
+    <loc>https://limewin.ru/wp/index.html</loc>
+    <lastmod>2025-03-05</lastmod>
+    <priority>1.0</priority>
+</url>
     <!-- Важные страницы с высоким приоритетом -->
     <url>
         <loc>https://limewin.ru/go/index.html</loc>
