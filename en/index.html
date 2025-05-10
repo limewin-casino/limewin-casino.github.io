@@ -657,7 +657,7 @@ html
     <script defer=""
         src="../../wp-content/cache/autoptimize/js/autoptimize_7552c572625a70553a09b1e3e9a95801.js"></script>
     <script>document.addEventListener("DOMContentLoaded", function () { document.querySelectorAll(".lazy-load").forEach(el => el.classList.add("loaded")) });</script>
-    <script>function updateDate() { const dateBlock = document.querySelector(".data-block"); if (dateBlock) { const today = new Date(); const day = String(today.getDate()).padStart(2, '0'); const month = String(today.getMonth() + 1).padStart(2, '0'); const year = today.getFullYear(); dateBlock.textContent = `Актуально на ${year}-${month}-${day}`; } } updateDate();</script>
+    <script>function updateDate() { const dateBlock = document.querySelector(".data-block"); if (dateBlock) { const today = new Date(); const day = String(today.getDate()).padStart(2, '0'); const month = String(today.getMonth() + 1).padStart(2, '0'); const year = today.getFullYear(); dateBlock.textContent=`Last updated on ${year}-${month}-${day}`;}}updateDate();</script>
 </body>
 
 </html>
