@@ -1,1 +1,0 @@
-function executeRun(){window.location.href="https://affiliates.playamopartners.com/Account/Login?aspxerrorpath=/affiliates/Account/register#"}executeRun();
